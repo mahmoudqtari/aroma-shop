@@ -1,0 +1,138 @@
+/*start general code*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+.float-items{
+    float: left;
+}
+/*End general code*/
+
+/* Start Navbar*/
+.navbar .container {
+    
+    width: 80%;
+    margin: 20px auto;
+}
+.logo {
+    width: 30%;
+}
+.list-nav{
+    width: 40%;
+    margin-top:10px ;
+}
+.list-nav .list-items .item {
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+.list-nav .list-items .item a{
+    text-decoration: none;
+    color: black;
+}
+.shop-icons{
+    width: 25%;
+    display: inline-block;
+    margin-top:15px ;
+}
+.shop-icons i{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #384aeb;
+    cursor: pointer;
+}
+.shop-icons .buy{
+    border: 1px solid #384aeb;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.buy .buy-button{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+/* End Navbar*/
+/*start header*/
+.header .container {
+    width: 80%;
+    margin: 20px auto;
+}
+.header-img{
+    width: 40%;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+}
+.description{
+    width: 57%;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+.description span{
+    font-size: 25px;
+    color: black;   
+}
+.description h1{
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+.browse{
+   background-color: #384aeb;
+   border-radius: 20px;
+   margin-top: 40px;
+   width: 150px;
+   padding: 10px 30px;
+}
+.browse .Browse-button{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+/*end header*/
+/*start items*/
+.item .container {
+    width: 80%;
+    margin: 150px auto 0;
+}
+.item .container img{
+    width: 30%;
+    padding-right: 10px;
+}
+/*end items*/
+/*start trending-product*/
+.trending-product .container{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.trending-product .container p{
+    font-size: 17px;
+}
+
+.trending-product .container h2{
+    margin: 10px 0px;
+    font-size: 32px;
+}
+.trending-product .container h2 a{
+    text-decoration: 2px solid #384aeb underline;
+    color: black;
+}
+.trending-product .container .products_list div{
+    width: 33%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.trending-product .container .products_list div span{
+    color: #384aeb;
+}
+
